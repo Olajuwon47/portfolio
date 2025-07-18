@@ -1,0 +1,26 @@
+#skills {
+  .skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-weight: 600;
+    width: 120px;
+    text-align: center;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
